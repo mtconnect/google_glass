@@ -27,11 +27,31 @@ If you are not an Explorer with Glass, the toggle is not displayed and you canno
 ![Alt text](https://developers.google.com/glass/images/api-console-enable-glass.png?raw=true)
 
 the Google Mirror API on the Google API Console
-Click API Access and create an OAuth 2.0 client ID for a web application. the API Access section of the Google API console
-Specify the product name and icon for your Glassware. These fields appear on the OAuth grant screen presented to your users. specifying brand information
-Select Web application and specify any value for the hostname, such as localhost selecting application type
-Click Edit settings... for the client ID to specify redirect URIs. Specify http://localhost:8080/oauth2callback and the callback URL for your App Engine instance, for example, https://myappengineinstance.appspot.com/oauth2callback. the Google API console configuration panel for redirect URIs
-Make note of the client ID and secret from the Google APIs Console. You'll need it to configure the quick start project. the client id and secret on the Google API console
+Click API Access and create an OAuth 2.0 client ID for a web application. 
+
+![Alt text](https://developers.google.com/glass/images/api-console-client-id.png?raw=true)
+
+the API Access section of the Google API console
+Specify the product name and icon for your Glassware. These fields appear on the OAuth grant screen presented to your users.
+
+![Alt text](https://developers.google.com/glass/images/api-console-client-id-brand-info.png?raw=true)
+
+specifying brand information
+Select Web application and specify any value for the hostname, such as localhost
+
+![Alt text](https://developers.google.com/glass/images/api-console-client-id-app-type.png?raw=true)
+
+selecting application type
+Click Edit settings... for the client ID to specify redirect URIs. Specify http://localhost:8080/oauth2callback and the callback URL for your App Engine instance, for example, https://myappengineinstance.appspot.com/oauth2callback. 
+
+![Alt text](https://developers.google.com/glass/images/api-console-redirect-uris.png?raw=true)
+
+the Google API console configuration panel for redirect URIs
+Make note of the client ID and secret from the Google APIs Console. You'll need it to configure the quick start project.
+
+![Alt text](https://developers.google.com/glass/images/api-console-client-id-and-secret.png?raw=true)
+
+the client id and secret on the Google API console
 Configuring the project
 
 Configure the Quick Start project to use your API client information:
