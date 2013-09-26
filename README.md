@@ -3,6 +3,15 @@ google_glass
 
 simple Google Glass client for MTConnect
 
+This is a simple app that has been modified from the original Python SDK for Glass and allows Glass to communicate to MTConnect Agents.
+It also has Kooaba image recognition platform SDK in the code(kooaba.com). This can be used for Glass to recognize various machinetools or objects
+and then send a notification back with the current MTConnect stream to the user of the Glass. This is not implemented in the current code, you will
+have to create your own account with Kooaba to activate this function, but I've included the SDK in the code so it can be implemented
+with ease. Please follow the instructions below to get started with App Engine and Mirror API.
+
+You can find a working demo of MTConnect + Google Glass at ITAMCO.com
+
+
 Prerequisites
 
 The App Engine SDK for Python - The Python quick start project is implemented using App Engine. You need the Python App Engine SDK to develop and deploy your project. Run the installer if appropriate for your platform, or extract the zip file in a convenient place.
